@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './component/welcome/welcome';
 import ProductList from './component/product-list/product-list';
+import Counter from './component/counter/counter';
+import Calculatrice from './component/calculatrice/calculatrice';
 
 function App() {
 
@@ -13,10 +15,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Exo 1</h1>
+      {/* <h1>Exo 1</h1>
       <Welcome name="Pierre" age={85}></Welcome>
       <h1>Exo 2</h1>
-      <ProductList products={products}></ProductList>
+      <ProductList products={products}></ProductList> */}
+      <h1>Exo 3</h1>
+      <Counter incrementation={5}></Counter>
+      <h1>Exo 4</h1>
+      <Calculatrice></Calculatrice>
     </div>
   );
 }
